@@ -1,0 +1,32 @@
+ <div class="col-md-6 instructions game">
+		    			<h2>Let's play!</h2>
+		    			<div class="words">
+		    				<div class="clue_box">
+		    					<h4>Clue: <span class="clue"><%= @palabraAdivinar.hint %></span></h4>
+		    					<h4>Solution: <span class="clue"><%= @arrayPalabra %></span></h4>
+		    					<div class="word_to_find">
+		    						<h1>Solve it!</h1>
+		    						<h2><%= @arrayJugador %></h2>
+		    					</div>	
+
+		    					<div id="text_box">
+		    							<%= form_tag "/", :method => 'post' do %>
+										  <p>
+										    <%= text_field_tag :search, params[:search] %>
+										    <%= submit_tag "Search" %>
+										  </p>
+										<% end %>
+
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<br><br><br><br><br>
+		    			<div class="lifes_text">
+		    					<span>Your lifes </span><img class="lifes" src="corazon.png"><img class="lifes" src="corazon.png"><img class="lifes" src="corazon.png"><img class="lifes" src="corazon.png"><img class="lifes" src="corazon.png">
+
+		    			</div>
+		    		</div><!--Col--> 
+
+
+
+<%= @word %>

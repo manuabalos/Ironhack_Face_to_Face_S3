@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <title>The hangedman!</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application'%>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header class="container">
+    	<div class="row">
+    		<div class="col-md-6 header_a">
+    		<h1 class="main_title">The Hangedman!</h1>
+    		</div>
+    	</div>
+    </header>
+
+    <div class="container caja_megatocha">
+
+		    
+		    	<div class="row">
+		    		<div class="col-md-4 instructions">
+
+		    		<div class="list_header">
+		    			<h2>Instructions</h2>
+			    		<h4>Welcome to the hangedman!</h4>			
+		    		</div>
+			  			<p>To play this game you have to follow these steps:</p>
+		    			<ol>
+		    				<li>You have a secret word that you have to guess.</li>
+		    				<li>Don't be mad! You have a clue to help you that at the top of the page.</li>
+		    				<li>There is a text-box where you have to put a letter.</li>
+		    				<li>If the word is correct, it will be printed on the screen. If it's no you will lose one life.</li>
+		    				<li>So have a nice time and good luck! (try to not die on the attempt!)</li>
+		    			</ol>
+
+		    		</div><!--Col-->
+<%= yield %>
+ 
+		 	  </div><!--Row-->
+</div><!--Main container-->
+</body>
+</html>

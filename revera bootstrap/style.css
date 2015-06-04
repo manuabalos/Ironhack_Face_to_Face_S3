@@ -1,0 +1,100 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	border: 1px solid black;
+}
+
+.title{
+	font-size: 30px;
+	font-weight: bolder;
+	height: 90px;
+	padding-top: 1.5%;
+	padding-left: 0%;
+}
+
+.menu{
+	height: 90px;
+	padding-top: 2.7%;
+	padding-left: 0%;
+}
+
+.menu-home{
+	color: #ed564b;
+	padding: 1% 1% 1% 1%;
+}
+
+.menu-normal{
+	color: #777;
+	padding: 1% 1% 1% 1%;
+}
+
+.slider-footer{
+	
+	padding: 40px 0px;
+	background: #ed564b;
+	border-top: 5px solid #f96b61;
+	border-bottom: 5px solid #f96b61;
+}
+
+.slider-footer-column{
+	height: 15rem;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.icons-format{
+	color: white;
+	font-size: 2rem;
+	display: block;
+	margin: auto;
+
+}
+.icons-border{
+	/*border-radius: 50%; */
+	/*width: 60px; */
+	height: 60px;
+	/*border: 5px solid white;*/
+	display: block;
+	margin: auto;
+	padding: 4%;
+	
+}
+
+.slider-footer-title{
+	font-weight: bold;
+	font-size: 24px;
+	color: white;
+}
+
+.slider-footer-text{
+	color: white;
+
+}
+
+.title-lastest{
+  margin-top: 5%;
+  font-size: 24px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle-lastest{
+  font-weight: bold;
+  border-bottom: 1px solid #dfdfdf;
+  color: #aaa;
+  padding-bottom: 20px;
+}
+
+a, a:hover{
+text-decoration: none;
+color: black;
+}
+
+.decoration-lastest{
+	border: none;
+}

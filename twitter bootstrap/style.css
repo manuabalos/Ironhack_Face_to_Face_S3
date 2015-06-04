@@ -1,0 +1,105 @@
+header{
+	background-color: white;
+}
+
+body{
+	background-color: rgb(240,240,240);
+}
+
+
+
+.menu-icon{
+	font-size: 2rem;
+	margin-left: 1.5rem;
+	margin-right: 1rem;
+}
+a{
+	color: black;
+}
+a:hover{
+	border-bottom: 3px black solid;
+	text-decoration: none;
+	color: black;
+}
+
+.img-twitter-logo{
+	display: block;
+	margin: auto;
+	width: 6rem;
+	height:4rem;
+}
+
+.search-bar{
+	width: 50%;
+	float: left;
+}
+
+.img-profile{
+	height: 3rem;
+	width: 2.5rem;
+
+}
+
+.img-background-profile{
+	width: 100%;
+}
+
+.img-avatar-profile{
+	position: absolute;
+	margin-left: 5rem;
+	top: 37rem;
+	width: 100%;
+	z-index: 10;
+	width: 20rem;
+	margin-left: 5rem;
+	border: 5px solid white;
+}
+
+.menu-stats{
+	height: 6rem;
+	background-color: white;
+}
+.menu-stats-container{
+	float:left;
+	text-decoration: none;
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.menu-stats-text{
+	font-size: 1rem;
+}
+
+.menu-stats-number{
+	font-weight: bold;
+	font-size: 1.7rem;
+}
+
+.container-tweets{
+	margin: 0px;
+	padding: 0px;
+}
+
+.twitter-name{
+	font-size: 22px;
+	font-weight: 700;
+  	line-height: 1;
+  	word-wrap: break-word;
+  	padding-top: 5rem;
+  	padding-left: 3rem;
+}
+
+.twitter-a{
+	color: #8899a6;
+	padding-left: 3rem;
+	line-height: 2%;
+}
+
+.twitter-description{
+	font-size: 14px;
+  	font-weight: 400;
+  	line-height: 20px;
+  	padding-right:0.5rem;
+  	padding-left: 3rem;
+}
